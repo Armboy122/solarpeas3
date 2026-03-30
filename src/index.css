@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap');
+
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #191c1e;
+  background: #f7f9fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary: #022448;
+  --primary-container: #1e3a5f;
+  --secondary: #006e2f;
+  --secondary-container: #6bff8f;
+  --tertiary: #341f00;
+  --tertiary-container: #503300;
+  --surface: #f7f9fb;
+  --surface-low: #f2f4f6;
+  --surface-lowest: #ffffff;
+  --surface-high: #e6e8ea;
+  --surface-highest: #e0e3e5;
+  --outline-variant: #c4c6cf;
+  --outline: #74777f;
+  --on-surface: #191c1e;
+  --on-surface-variant: #43474e;
+  --shadow-xl: 0 20px 40px rgba(0, 28, 59, 0.06);
+  --shadow-md: 0 12px 24px rgba(0, 28, 59, 0.04);
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--surface);
+  color: var(--on-surface);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(2, 36, 72, 0.08);
+  color: var(--primary);
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--surface);
+}
