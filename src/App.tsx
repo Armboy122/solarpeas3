@@ -1173,7 +1173,7 @@ function App() {
                   </select>
                 </label>
                 <label className="field">
-                  <span>เปลี่ยน stage</span>
+                  <span>เปลี่ยน  stage</span>
                   <select
                     value={selectedCustomer.stage}
                     onChange={(event) =>
